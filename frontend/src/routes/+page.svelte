@@ -14,10 +14,10 @@
 </script>
 
 <Navbar class="border-b border-gray-300 py-4">
-	<NavBrand href="/" class="text-xl">Server Monitor</NavBrand>
+	<NavBrand href="/" class="text-2xl font-bold">Server Monitor</NavBrand>
 	<div class="flex gap-5">
-        <DarkMode class="text-md border border-gray-300 dark:border-gray-700" />
-		<Button class="px-8">Exit</Button>
+        <DarkMode class="text-md border border-gray-300 dark:border-gray-700 w-12 flex justify-center items-center" />
+		<Button class="px-8 text-lg font-semibold">Exit</Button>
 	</div>
 </Navbar>
 

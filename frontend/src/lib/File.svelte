@@ -33,7 +33,7 @@
 		<FileSolid class="h-8 w-8 mt-1" />
 	{/if}
 	<div class="mx-4 flex-grow">
-		<div class="text-md font-medium text-gray-700 dark:text-gray-200">
+		<div class="text-md font-medium text-gray-700 dark:text-gray-200 break-all">
 			{file.name}
 		</div>
 		<div class="text-sm text-gray-500 dark:text-gray-400">
