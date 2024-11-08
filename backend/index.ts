@@ -116,6 +116,7 @@ app.post('/console/execute', (req, res) => {
 			.status(400)
 			.json({ status: 'error', message: 'Command is required' });
 	}
+	outputBuffer += '> ' + command + '\n'
 
 	if (!shell) {
 		shell = spawn('bash');
